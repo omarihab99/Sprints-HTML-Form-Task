@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body bgcolor="#2f4f4f">
+    <form action="POST">
+        <fieldset style="background-color: #2e6e6e;">
+            <legend style="background-color: #5f9ea0; padding: 1px 1px;">Personal Data</legend>
+            <fieldset style="background-color: #5f9ea0;">
+                <legend style="background-color: #3e858b; padding: 30px 0px;">Your Name</legend>
+                <table>
+                    <tbody>
+                        <br>
+                        <br>
+                        <tr>
+                            <td>
+                                <label for="firstName">First Name</label>
+                            </td>
+                            <td>
+                                :
+                            </td>
+                            <td>
+                                <input type="text" name="firstName" id="firstName" placeholder="ex.Mohamed">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="secondName">Second Name</label>
+                            </td>
+                            <td>
+                                :
+                            </td>
+                            <td>
+                                <input type="text" name="secondName" id="secondName" placeholder="ex.Hashem">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="YourPhone">Your Phone</label>
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="tel" name="YourPhone" id="YourPhone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="re-Password">re-Password</label>
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="password" name="re-Password" id="re-Password">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">Male</label>
+            <br>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">Female</label>
+            <br>
+            <br>
+            <input type="checkbox" name="student" id="student">
+            <label for="student">Student</label>
+            <br>
+            <input type="checkbox" name="graduated" id="graduated">
+            <label for="graduated">Graduated</label>
+            <br>
+            <br>
+            <label for="University" style="width: 70px;">University:</label>
+            <select id="University">
+                <option value="AUC">AUC</option>
+                <option value="AU">AU</option>
+                <option value="CU">CU</option>
+            </select>
+            <br>
+            <br>
+            <button
+                style="font-size: 15px; background-color: #343434; border-radius: 6px;  color: #f3f3f3; border: #343434; width: 60px; height: 20px; padding: 0px 0px;"
+                type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
